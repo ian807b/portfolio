@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
     <!-- Font Awesome -->
@@ -66,7 +66,7 @@
         <a class="home__contact" href="#contact">Contact Me</a>
       </section>
       <!-- About -->
-      <section id="about" class="section">
+      <section id="about" class="section max-container">
         <h2 class="title">About Me</h2>
         <p class="description">
           Hi, I am a 4th-year Computer Science student at Simon Fraser
@@ -76,42 +76,47 @@
           eager to contribute to impactful projects and continue growing as a
           developer.
         </p>
-        <ul>
-          <li>
-            <i class="fa-brands fa-html5"></i>
-            <p>Front-end</p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
             <p>HTML, CSS, JavaScript, TypeScript, React, Web APIs</p>
           </li>
-          <li>
-            <i class="fa-solid fa-mobile"></i>
-            <p>Mobile</p>
+          <li class="major">
+            <i class="fa-solid fa-mobile major__icon"></i>
+            <p class="major__title">Mobile</p>
             <p>iOS, React Native</p>
           </li>
-          <li>
-            <i class="fa-solid fa-server"></i>
-            <p>Back-end</p>
+          <li class="major">
+            <i class="fa-solid fa-server major__icon"></i>
+            <p class="major__title">Back-end</p>
             <p>JavaScript, Node.JS, REST APIs</p>
           </li>
         </ul>
-        <ul>
-          <li>
-            <img src="images/sfu-cs-logo.png" alt="sfu-cs" />
+        <ul class="schools">
+          <li class="school">
+            <img
+              class="school__logo"
+              src="images/sfu-cs-logo.png"
+              alt="sfu-cs"
+            />
             <div>
-              <p>
+              <p class="school__name">
                 Currently a Senior Studying Computer Science at Simon Fraser
                 University
               </p>
-              <p>2021 - 2025 (Expected)</p>
+              <p class="school__period">2021 - 2025 (Expected)</p>
             </div>
           </li>
-          <li>
+          <li class="school">
             <img
+              class="school__logo"
               src="images/douglas-college-logo.jpg"
               alt="douglas-college-logo"
             />
             <div>
-              <p>Associate of Science</p>
-              <p>2019 - 2021</p>
+              <p class="school__name">Associate of Science</p>
+              <p class="school__period">2019 - 2021</p>
             </div>
           </li>
         </ul>

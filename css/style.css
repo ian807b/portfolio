@@ -455,9 +455,6 @@ button:focus {
   gap: 0.5rem;
 }
 
-.education__expected {
-}
-
 /* Arrow up */
 .arrow-up {
   background-color: var(--color-primary);

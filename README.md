@@ -1,10 +1,12 @@
+[![Live Site](https://img.shields.io/badge/Live_Site-ianh0123.com-green?logo=githubpages&logoColor=white)](https://ianh0123.com)
+
 # Portfolio Website
 
 ![Portfolio Banner](https://img.shields.io/badge/Portfolio-Ian-blue)
 
 ## 📋 Overview
 
-A modern, responsive portfolio website showcasing my skills, projects, and educational background. This website serves as a professional landing page for potential employers and collaborators to learn more about my work and expertise in software development.
+A responsive portfolio website showcasing my skills, projects, and educational background. This website serves as a professional landing page for potential employers and collaborators to learn more about my work and expertise in software development.
 
 ## ✨ Features
 
@@ -24,6 +26,17 @@ A modern, responsive portfolio website showcasing my skills, projects, and educa
 - **Font Awesome**: Icon integration
 - **Google Fonts**: Typography enhancement
 - **AWS**: Hosting infrastructure (S3, CloudFront, Route 53)
+
+## 🚀 Deployment Automation
+
+The deployment process is fully automated via **GitHub Actions**:
+
+- **Push to `main` branch** triggers the workflow
+- **AWS CLI** uploads updated files to the S3 bucket
+- **CloudFront** cache is invalidated to reflect changes globally
+- Secrets such as AWS credentials are securely managed using GitHub Secrets
+
+This ensures a seamless CI/CD pipeline, keeping the portfolio always up-to-date with minimal manual intervention.
 
 ## 📁 Project Structure
 
